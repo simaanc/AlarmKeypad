@@ -1,0 +1,7770 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "16f20ea6-a8cd-4c9f-902a-4d57c962ba64")
+	(paper "User" 204.978 143.129)
+	(lib_symbols
+		(symbol "3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "3V3"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '3V3'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3V3_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "9X9MM_SMD_PIEZO MURATA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P1"
+				(at -1.4478 7.6835 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "9X9MM_SMD_PIEZO MURATA"
+				(at -1.4478 5.4229 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "9X9MM_SMD_PIEZO MURATA_0_0"
+				(rectangle
+					(start -0.635 2.54)
+					(end 0.635 -2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.048) (xy 1.778 -3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.556) (xy 1.016 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.064) (xy 0.254 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW2"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_1_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_10"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW11"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_10_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_11"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW12"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_11_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW13"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_12_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_13"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW14"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_13_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_14"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW15"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_14_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_15"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW16"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_15_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW3"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_2_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW4"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_3_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW5"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_4_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW6"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_5_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW7"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_6_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW8"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_7_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW9"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_8_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_9"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW10"
+				(at -2.5654 7.2771 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KAILH MX"
+				(at -2.5654 4.9911 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_9_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.0254 0.0254)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCF8574AN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U3"
+				(at -1.5494 16.4973 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PCF8574AN"
+				(at -6.6548 13.5763 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PCF8574AN_0_0"
+				(rectangle
+					(start -7.62 11.43)
+					(end 7.62 -11.43)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -6.35 10.16)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 8.89 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -6.35 180)
+					(length 2.54)
+					(name "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "INT#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 6.35 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 8.89 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -8.89 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PN532MOD COPY"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U4"
+				(at -5.3086 17.4625 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PN532MOD COPY"
+				(at -5.3086 15.1511 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PN532MOD COPY_0_0"
+				(rectangle
+					(start -10.16 12.7)
+					(end 2.54 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 0 90)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 90)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 90)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "R503 Fingerprint reader"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U2"
+				(at -0.2286 14.8463 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "R503"
+				(at -1.5494 12.3063 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R503 Fingerprint reader_0_0"
+				(rectangle
+					(start -5.08 10.16)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "Wakeup"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "3.3-5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Unknown_5_-566"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at 57.9882 66.7131 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "A"
+				(at 57.9882 64.4271 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Unknown_5_-566_0_0"
+				(polyline
+					(pts
+						(xy 2.54 -102.108) (xy 0 -102.108)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -52.324) (xy 0 -52.324)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 52.324 -140.208) (xy 52.324 -142.748)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 52.324 -2.54) (xy 52.324 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 89.408 -130.048) (xy 201.93 -130.048)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 102.108 -140.208) (xy 102.108 -142.748)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 102.108 -2.54) (xy 102.108 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 115.824 -135.128) (xy 201.93 -135.128)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 115.824 -130.048) (xy 115.824 -140.208)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 151.892 -140.208) (xy 151.892 -142.748)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 151.892 -2.54) (xy 151.892 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 181.864 -130.048) (xy 181.864 -135.128)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 181.864 -120.142) (xy 181.864 -130.048)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 201.676 -140.208) (xy 201.676 -142.748)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 201.676 -2.54) (xy 201.676 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 202.184 -102.108) (xy 204.724 -102.108)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 202.184 -52.324) (xy 204.724 -52.324)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 0)
+					(end 204.724 -142.748)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -2.54)
+					(end 202.184 -140.208)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 89.3826 -119.888)
+					(end 202.1586 -140.208)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at 27.432 -140.6779 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "1"
+					(at 27.432 -0.4699 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "1.0"
+					(at 192.9384 -124.3711 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 2.1717 2.1717)
+						)
+						(justify left top)
+					)
+				)
+				(text "1/1"
+					(at 194.4624 -131.7879 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 2.1717 2.1717)
+						)
+						(justify left top)
+					)
+				)
+				(text "2"
+					(at 77.216 -140.6779 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "2"
+					(at 77.216 -0.4699 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "2023-05-20"
+					(at 129.1844 -136.8679 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 2.1717 2.1717)
+						)
+						(justify left top)
+					)
+				)
+				(text "3"
+					(at 127 -140.6779 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "3"
+					(at 127 -0.4699 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "4"
+					(at 176.784 -140.6779 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "4"
+					(at 176.784 -0.4699 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "A"
+					(at 0.381 -25.7429 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "A"
+					(at 202.565 -25.7429 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "Alarm Panel"
+					(at 105.3084 -123.952 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 2.413 2.413)
+						)
+						(justify left top)
+					)
+				)
+				(text "B"
+					(at 0.381 -75.5269 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "B"
+					(at 202.565 -75.5269 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.6891 1.6891)
+						)
+						(justify left top)
+					)
+				)
+				(text "Christopher Simaan"
+					(at 134.1628 -131.2545 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 2.1717 2.1717)
+						)
+						(justify left top)
+					)
+				)
+				(text "Christopher Simaan"
+					(at 169.0624 -136.8171 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 2.1717 2.1717)
+						)
+						(justify left top)
+					)
+				)
+				(text "Company:"
+					(at 117.2464 -131.4704 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.9304 1.9304)
+						)
+						(justify left top)
+					)
+				)
+				(text "Date:"
+					(at 117.2464 -137.0076 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.9304 1.9304)
+						)
+						(justify left top)
+					)
+				)
+				(text "Drawn By:"
+					(at 152.5524 -137.0584 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.9304 1.9304)
+						)
+						(justify left top)
+					)
+				)
+				(text "REV:"
+					(at 183.2864 -124.6124 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.9304 1.9304)
+						)
+						(justify left top)
+					)
+				)
+				(text "Sheet:"
+					(at 183.0324 -131.9276 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.9304 1.9304)
+						)
+						(justify left top)
+					)
+				)
+				(text "TITLE:"
+					(at 90.6526 -121.2596 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 1.9304 1.9304)
+						)
+						(justify left top)
+					)
+				)
+			)
+		)
+		(symbol "VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'VCC'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "myTTGO T-DISPLAY-S3 -NO_CUTOUT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A1"
+				(at -1.4224 25.3365 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "myTTGO T-DISPLAY-S3 -NO_CUTOUT"
+				(at -19.685 22.4409 0)
+				(effects
+					(font
+						(face "Arial")
+						(size 1.6891 1.6891)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "myTTGO T-DISPLAY-S3 -NO_CUTOUT_0_0"
+				(rectangle
+					(start -15.24 20.32)
+					(end 15.24 -25.4)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -10.16 -19.7866)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.08 -19.7866)
+					(end 5.6388 -24.8666)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.16 -19.7866)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "IO00"
+					(at -12.7 -15.0749 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 2.1717 2.1717)
+						)
+						(justify left top)
+					)
+				)
+				(text "IO14"
+					(at 6.35 -15.6083 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 2.1717 2.1717)
+						)
+						(justify left top)
+					)
+				)
+				(text "USB"
+					(at -2.54 -20.6883 0)
+					(effects
+						(font
+							(face "KiCad Font")
+							(size 2.1717 2.1717)
+						)
+						(justify left top)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "GPIO13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 2.54 180)
+					(length 5.08)
+					(name "GPIO12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 5.08 180)
+					(length 5.08)
+					(name "GPIO11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "GPIO10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "GPIO03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 12.7 180)
+					(length 5.08)
+					(name "GPIO02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 15.24 180)
+					(length 5.08)
+					(name "GPIO01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 17.78 180)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -10.16 0)
+					(length 5.08)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "GPIO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "GPIO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "GPIO18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 10.16 0)
+					(length 5.08)
+					(name "GOIO44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "GPIO43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 15.24 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 17.78 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -10.16 180)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 127 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "329d9243-0ab8-46a8-a5f3-5b7481d6e86a")
+	)
+	(junction
+		(at 148.59 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36391800-41a8-48df-819c-b149f67363c7")
+	)
+	(junction
+		(at 111.76 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42e09d5d-8c02-497d-9638-771766888de1")
+	)
+	(junction
+		(at 170.18 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4649691d-0fbe-44e2-8b74-db26ea5777e2")
+	)
+	(junction
+		(at 133.35 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53a81f1e-2b46-403b-9be8-ecc36986afcd")
+	)
+	(junction
+		(at 170.18 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5eadbafb-661a-46b1-8519-4283776eb591")
+	)
+	(junction
+		(at 191.77 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60089407-0469-4746-b2df-cec8cb0b9f4a")
+	)
+	(junction
+		(at 133.35 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "706e509f-ae46-45d6-9622-124d2ef3bc24")
+	)
+	(junction
+		(at 148.59 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8239c8b8-8a72-42d6-b1d7-14dad13987b4")
+	)
+	(junction
+		(at 170.18 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83f76c9c-b5cc-4296-ab96-d323c1d14eb2")
+	)
+	(junction
+		(at 111.76 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91a8b29e-5692-41e8-a530-5fa0ef423703")
+	)
+	(junction
+		(at 133.35 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91c11b29-4d1e-4a80-8618-5e954f9fa41a")
+	)
+	(junction
+		(at 148.59 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "987b2362-c4e3-4804-88a7-42a376ff16ed")
+	)
+	(junction
+		(at 140.97 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c55c0d5-3299-44f8-812a-0d13f56c669a")
+	)
+	(junction
+		(at 127 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a75764b0-757a-49d5-9155-82533764b2cc")
+	)
+	(junction
+		(at 191.77 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7f99a70-017a-415b-8fba-9f43949f46d9")
+	)
+	(junction
+		(at 154.94 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae752581-ccc3-452c-945c-20c8325b7d24")
+	)
+	(junction
+		(at 154.94 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b61ceb02-5bc8-4134-9770-2ad720c80b65")
+	)
+	(junction
+		(at 191.77 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc58d54f-05ca-45fe-8a5f-4c807dee9e8a")
+	)
+	(junction
+		(at 154.94 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfb50155-4cf0-4f7b-913b-be050211ced1")
+	)
+	(junction
+		(at 133.35 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7f2134d-35c0-417d-9849-26960c02f2af")
+	)
+	(junction
+		(at 127 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d01667fe-c42d-4126-9ebe-22339976fb30")
+	)
+	(junction
+		(at 111.76 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5aefbfe-ae6c-456b-a534-0857b98c3b59")
+	)
+	(junction
+		(at 140.97 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e81f420a-2d90-4291-840b-9eb72e3ebb65")
+	)
+	(junction
+		(at 154.94 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1d39d17-34e3-4733-97a9-4aa13e479d59")
+	)
+	(junction
+		(at 111.76 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6160209-cbb4-4038-88c4-117aaf24ad46")
+	)
+	(no_connect
+		(at 64.262 27.178)
+		(uuid "0876fb7e-e502-470d-8dbd-c17563781b0d")
+	)
+	(no_connect
+		(at 23.622 29.718)
+		(uuid "0bfa3567-7321-4bd5-8fe5-c6bcdeac7735")
+	)
+	(no_connect
+		(at 64.262 42.418)
+		(uuid "1a6374ef-b651-4002-860c-efb1301b27e7")
+	)
+	(no_connect
+		(at 23.622 42.418)
+		(uuid "1de3005c-538e-4627-94b5-f0a1a712eaac")
+	)
+	(no_connect
+		(at 64.262 24.638)
+		(uuid "1fd94ab2-b53b-418a-b4cd-c20bc48e9716")
+	)
+	(no_connect
+		(at 163.83 96.52)
+		(uuid "4056091b-6d7d-443c-b691-d8327f929385")
+	)
+	(no_connect
+		(at 23.622 24.638)
+		(uuid "6d9d40f3-4e8e-462e-843e-1aaaec07af0a")
+	)
+	(no_connect
+		(at 64.262 34.798)
+		(uuid "754f4e12-b31c-4b25-bf01-555d8c31e14a")
+	)
+	(no_connect
+		(at 64.262 39.878)
+		(uuid "8ee45c6a-8470-4938-8f46-656e481df967")
+	)
+	(no_connect
+		(at 64.262 47.498)
+		(uuid "9f6f36d2-18c2-4570-98f3-caf64c3679f4")
+	)
+	(no_connect
+		(at 64.262 37.338)
+		(uuid "a5051a65-2641-4f59-87e6-3184fbffa463")
+	)
+	(no_connect
+		(at 23.622 22.098)
+		(uuid "ad964bbc-017a-4884-b2a7-ecdb80cc3b07")
+	)
+	(no_connect
+		(at 23.622 44.958)
+		(uuid "b83c467e-c181-40ca-a749-ace492036904")
+	)
+	(no_connect
+		(at 64.262 44.958)
+		(uuid "bf6b8688-7da2-47cb-979b-324a143a9c2d")
+	)
+	(no_connect
+		(at 64.262 29.718)
+		(uuid "c3b44af5-7f39-42e2-97f6-eb09eb721200")
+	)
+	(wire
+		(pts
+			(xy 170.18 34.29) (xy 170.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "003c3228-10ea-49e1-9c92-d650cb9cc85b")
+	)
+	(wire
+		(pts
+			(xy 106.68 72.39) (xy 111.76 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009530a5-1f60-4d34-a4d5-60ddf8d89248")
+	)
+	(wire
+		(pts
+			(xy 111.76 38.1) (xy 111.76 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010580da-c2ad-4f21-979d-0799c46867a1")
+	)
+	(wire
+		(pts
+			(xy 127 50.8) (xy 127 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d47fa7-58b7-4a9c-8588-7e49be4fbf47")
+	)
+	(wire
+		(pts
+			(xy 176.53 54.61) (xy 154.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034a74b2-5e69-488c-9da1-c60be43f2c14")
+	)
+	(wire
+		(pts
+			(xy 176.53 38.1) (xy 154.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb44913-8275-4b10-a8f1-28c92172e7ae")
+	)
+	(wire
+		(pts
+			(xy 148.59 68.58) (xy 148.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bbfa9d1-3f8d-4fd4-9af6-7dc73b0f6692")
+	)
+	(wire
+		(pts
+			(xy 176.53 17.78) (xy 176.53 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db05a1e-536a-485a-afde-21a4b56571bd")
+	)
+	(wire
+		(pts
+			(xy 154.94 34.29) (xy 154.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e01de9a-6fc3-43ec-b6b7-5e34cd439f58")
+	)
+	(wire
+		(pts
+			(xy 154.94 22.86) (xy 133.35 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10038319-bad0-404b-9894-e9f55dd7cb78")
+	)
+	(wire
+		(pts
+			(xy 148.59 50.8) (xy 148.59 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118537c8-7dbe-4727-b8f3-b5362252c714")
+	)
+	(wire
+		(pts
+			(xy 166.37 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e850b0-bfa4-4079-9e75-60bce13a5309")
+	)
+	(wire
+		(pts
+			(xy 65.532 32.258) (xy 64.262 32.258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13f68922-f235-4fc7-879d-ebf4a195a343")
+	)
+	(wire
+		(pts
+			(xy 148.59 34.29) (xy 148.59 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ba83e6-8592-43ad-9af6-4ae7a0a9a953")
+	)
+	(wire
+		(pts
+			(xy 111.76 22.86) (xy 111.76 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1a925e-073b-40d1-bb00-54f35c8c8b52")
+	)
+	(wire
+		(pts
+			(xy 127 34.29) (xy 127 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eaa7dc7-7286-467e-948e-fecfad6c4931")
+	)
+	(wire
+		(pts
+			(xy 166.37 106.68) (xy 163.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2140734b-3cee-41e8-99d0-df9e96c20112")
+	)
+	(wire
+		(pts
+			(xy 31.75 118.11) (xy 25.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cc6fb5-3c8b-48d8-9939-44a30aa5cdef")
+	)
+	(wire
+		(pts
+			(xy 166.37 91.44) (xy 163.83 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c90180d-bdc5-4081-a2b3-780c955c618a")
+	)
+	(wire
+		(pts
+			(xy 133.35 22.86) (xy 111.76 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d691ecb-42a9-4f39-bb2a-c04db5033308")
+	)
+	(wire
+		(pts
+			(xy 148.59 76.2) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d5c677-0673-4e78-bb45-0778e8b2c271")
+	)
+	(wire
+		(pts
+			(xy 42.672 90.678) (xy 41.402 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af84cde-8529-4de2-a6b5-b6a0ad3b365c")
+	)
+	(wire
+		(pts
+			(xy 133.35 17.78) (xy 133.35 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b21911b-4f55-4c33-b8d2-de1eb9a92324")
+	)
+	(wire
+		(pts
+			(xy 106.68 22.86) (xy 111.76 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f49811a-811c-487c-b0a5-0f0f59e45838")
+	)
+	(wire
+		(pts
+			(xy 191.77 68.58) (xy 191.77 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa66edd-519b-426e-8659-375cf6230aba")
+	)
+	(wire
+		(pts
+			(xy 133.35 50.8) (xy 133.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43562965-46e6-49d5-9ed3-3d439cadd660")
+	)
+	(wire
+		(pts
+			(xy 166.37 101.6) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6edc64-1ca9-4a5e-9777-ef8502fa0e44")
+	)
+	(wire
+		(pts
+			(xy 176.53 50.8) (xy 176.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b501b83-0882-46f3-9ec4-47bdf55c6409")
+	)
+	(wire
+		(pts
+			(xy 106.68 38.1) (xy 111.76 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7e8615-79c7-4f7c-843a-0b5400b31f4c")
+	)
+	(wire
+		(pts
+			(xy 22.352 37.338) (xy 23.622 37.338)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9bf4e9-5a6c-47f2-9189-56cffc206be7")
+	)
+	(wire
+		(pts
+			(xy 32.512 90.678) (xy 33.782 90.678)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553cf49d-3c9d-4979-bf24-dcb64b3d7c27")
+	)
+	(wire
+		(pts
+			(xy 143.51 104.14) (xy 140.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57430e35-59a5-49cf-ad47-38d1b65fc9d4")
+	)
+	(wire
+		(pts
+			(xy 111.76 72.39) (xy 111.76 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5806f52b-16c8-43e0-9b1f-194222effdcc")
+	)
+	(wire
+		(pts
+			(xy 170.18 50.8) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ed543b-f1ff-4457-8271-5dc9283c9b6b")
+	)
+	(wire
+		(pts
+			(xy 143.51 88.9) (xy 140.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64473c9b-1ac2-40e7-b662-ae7642e9359e")
+	)
+	(wire
+		(pts
+			(xy 154.94 68.58) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64987396-3ec9-48ad-8189-13637060d0fd")
+	)
+	(wire
+		(pts
+			(xy 133.35 38.1) (xy 111.76 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6699f9f2-176c-49ac-be6e-199a4a302829")
+	)
+	(wire
+		(pts
+			(xy 143.51 101.6) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a5baf0-076a-4055-85f8-15490505c0b6")
+	)
+	(wire
+		(pts
+			(xy 154.94 38.1) (xy 133.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "686fec54-7d6c-47bc-8205-2e2195ce5bf4")
+	)
+	(wire
+		(pts
+			(xy 140.97 93.98) (xy 140.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aac5490-5ca5-4fee-be1d-f81cc6167f57")
+	)
+	(wire
+		(pts
+			(xy 143.51 93.98) (xy 140.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74179f84-109b-4b45-8edc-7e0773605fea")
+	)
+	(wire
+		(pts
+			(xy 106.68 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765a0c02-1814-4672-944e-f13e911e575b")
+	)
+	(wire
+		(pts
+			(xy 127 68.58) (xy 127 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7706d9cb-43a0-4cf3-97e5-94bc921e604c")
+	)
+	(wire
+		(pts
+			(xy 140.97 91.44) (xy 140.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804e9efe-27f6-425c-9639-c80bd0b18033")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85cb9c62-f90b-4423-b864-f5e0c99eca9c")
+	)
+	(wire
+		(pts
+			(xy 23.622 27.178) (xy 22.352 27.178)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c66f58-61a7-4095-8924-0b9764955fe8")
+	)
+	(wire
+		(pts
+			(xy 22.352 34.798) (xy 23.622 34.798)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8bed44-261f-4086-9092-71f1504d7cb4")
+	)
+	(wire
+		(pts
+			(xy 191.77 17.78) (xy 191.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7c1ee7-8bf3-48ed-b4dd-9ddc406e0f96")
+	)
+	(wire
+		(pts
+			(xy 191.77 50.8) (xy 191.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d59581d-c93c-41dd-b8de-fddc487f93bd")
+	)
+	(wire
+		(pts
+			(xy 163.83 88.9) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9307b9f1-83eb-4cb9-a661-b2aa960db398")
+	)
+	(wire
+		(pts
+			(xy 140.97 96.52) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94dd757f-004d-47ec-b8b2-e3b998976c8b")
+	)
+	(wire
+		(pts
+			(xy 140.97 88.9) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cefca32-9ed0-433d-8dbd-ab33d0f57c23")
+	)
+	(wire
+		(pts
+			(xy 133.35 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de2c3f2-ed37-4c58-8226-d332852cd094")
+	)
+	(wire
+		(pts
+			(xy 143.51 99.06) (xy 140.97 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7ab80c-c45d-42f9-ba42-4762abcbe5d9")
+	)
+	(wire
+		(pts
+			(xy 133.35 34.29) (xy 133.35 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31cc6e5-fa50-413e-b675-ebb4a00820f4")
+	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 170.18 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b156e930-3932-4901-bcae-f2a89115a4d6")
+	)
+	(wire
+		(pts
+			(xy 166.37 93.98) (xy 163.83 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b60684e4-7a15-4289-a429-9d82e3660987")
+	)
+	(wire
+		(pts
+			(xy 176.53 72.39) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b820a7ee-04c0-48ae-ae75-798c6a4dc553")
+	)
+	(wire
+		(pts
+			(xy 176.53 22.86) (xy 154.94 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02b37b2-2de2-4ea0-8ec5-d37c7ec57b42")
+	)
+	(wire
+		(pts
+			(xy 143.51 91.44) (xy 140.97 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2355884-4bf5-4eea-a9a0-4a1df455e7bc")
+	)
+	(wire
+		(pts
+			(xy 176.53 68.58) (xy 176.53 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbfc749-2511-41cc-a8b3-e60fe510714b")
+	)
+	(wire
+		(pts
+			(xy 166.37 99.06) (xy 163.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d95d98-5edd-4ba6-8e10-e70e70f69486")
+	)
+	(wire
+		(pts
+			(xy 170.18 17.78) (xy 170.18 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf62cb7-e29a-4cef-8f86-83917af97618")
+	)
+	(wire
+		(pts
+			(xy 133.35 72.39) (xy 111.76 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3675fda-5e52-4205-bf74-ee3cf58be4e1")
+	)
+	(wire
+		(pts
+			(xy 154.94 17.78) (xy 154.94 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9adfbce-8b2f-4e36-8586-cc7da741729c")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb620578-f899-4ad0-9a68-380535a2682c")
+	)
+	(wire
+		(pts
+			(xy 22.352 32.258) (xy 23.622 32.258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed77b206-ecce-4d3d-a65f-7731aea0de3a")
+	)
+	(wire
+		(pts
+			(xy 111.76 54.61) (xy 111.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2a95bc-8d3f-4d05-b357-cfc17ed2a7f4")
+	)
+	(wire
+		(pts
+			(xy 133.35 68.58) (xy 133.35 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa0dbbf-0767-4263-8c5e-8487cc2d99d5")
+	)
+	(wire
+		(pts
+			(xy 154.94 54.61) (xy 133.35 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28c3efb-cb56-41aa-958e-be1aa5a318dd")
+	)
+	(wire
+		(pts
+			(xy 22.352 39.878) (xy 23.622 39.878)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2dde0cb-0ac0-46c1-b82f-c4741545389b")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 154.94 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3db8357-3f05-4f10-abcd-4b42e6c7a942")
+	)
+	(wire
+		(pts
+			(xy 176.53 34.29) (xy 176.53 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ca68a3-b710-43c8-91b3-72b1937742ed")
+	)
+	(wire
+		(pts
+			(xy 191.77 34.29) (xy 191.77 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f700c3fb-4c0d-47c2-a267-e0d9816d5058")
+	)
+	(rectangle
+		(start 89.408 2.286)
+		(end 202.184 119.634)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7d861138-77f5-49a8-9099-a1908f565e9e)
+	)
+	(rectangle
+		(start 2.54 101.854)
+		(end 89.408 139.954)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae0c4440-0b41-4b7d-a13d-1e62fb3186e3)
+	)
+	(rectangle
+		(start 2.54 76.454)
+		(end 89.408 101.854)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5756de5-ad7a-4d34-ad1f-cf2170947321)
+	)
+	(text "ESP32/Display"
+		(exclude_from_sim no)
+		(at 33.528 4.1783 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.1717 2.1717)
+			)
+			(justify left top)
+		)
+		(uuid "1860d932-0d54-4e43-8720-e3b014fcd45e")
+	)
+	(text "Keypad Matrix"
+		(exclude_from_sim no)
+		(at 140.97 4.1783 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.1717 2.1717)
+			)
+			(justify left top)
+		)
+		(uuid "4109cda0-86e7-4311-bc04-59ea3ae6ae76")
+	)
+	(text "Fingerprint/NFC"
+		(exclude_from_sim no)
+		(at 32.004 103.4923 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2.1717 2.1717)
+			)
+			(justify left top)
+		)
+		(uuid "9f706476-7a9a-4691-b3ae-fbe9f9b209e4")
+	)
+	(label "C3"
+		(at 166.37 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03e56ceb-a3c1-4e3a-921b-9831d4987e1f")
+	)
+	(label "C1"
+		(at 166.37 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15a6a392-271e-46f7-adc1-439a67bcfe5e")
+	)
+	(label "C3"
+		(at 170.18 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "190a3eb4-73b2-4b2e-a5e0-346e0d9f06cc")
+	)
+	(label "R4"
+		(at 140.97 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fd0ea57-b555-4620-b5ca-0d42616a0104")
+	)
+	(label "GPIO43"
+		(at 22.352 27.178 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "202ada07-8ae1-4874-839b-86fa2f67bbcf")
+	)
+	(label "C2"
+		(at 166.37 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c865b1b-c6f4-4165-824b-a5e02395b522")
+	)
+	(label "GPIO43"
+		(at 32.512 90.678 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32f076c0-2e56-42e9-9202-48bcf28419e4")
+	)
+	(label "C2"
+		(at 148.59 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33b3951a-696d-470b-a152-a02949afd6f0")
+	)
+	(label "R2"
+		(at 140.97 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c4e7bfd-f5fa-42ec-b39a-5d0f93167cce")
+	)
+	(label "TXD"
+		(at 25.4 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "494a4792-f36e-4a71-bfc8-ae3f4ccd36f0")
+	)
+	(label "TXD"
+		(at 22.352 32.258 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57bf0520-03f2-4a5a-b00a-b7bc69c73653")
+	)
+	(label "R3"
+		(at 106.68 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bdfd8e0-a284-42bc-a0aa-24ca72ed507a")
+	)
+	(label "C4"
+		(at 191.77 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5de61d49-8461-42cb-8f0c-8f68f28c33ae")
+	)
+	(label "Wakeup"
+		(at 65.532 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7274c7cc-e0f3-405c-8ac7-ded7f30646e2")
+	)
+	(label "SCL"
+		(at 166.37 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "775beec0-55cd-43c3-a6df-f2943d154ab0")
+	)
+	(label "SDA"
+		(at 22.352 37.338 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81dc3f75-e003-4204-9f2e-bdedd146cab0")
+	)
+	(label "RXD"
+		(at 25.4 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac87e480-f2ec-4621-868e-8dd5fff51a5a")
+	)
+	(label "SDA"
+		(at 57.912 125.222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae4abb42-d0b9-40fb-9997-48e48043f5e1")
+	)
+	(label "SCL"
+		(at 22.352 39.878 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b92ef347-f20a-4b23-81bc-3d309d6df439")
+	)
+	(label "C4"
+		(at 166.37 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc9799ee-46d9-4332-b4e0-58798db01d08")
+	)
+	(label "RXD"
+		(at 22.352 34.798 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1620a13-b2e6-4f16-9f93-956a96494cdf")
+	)
+	(label "SDA"
+		(at 166.37 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1b06436-52ec-446e-a3b3-6ca82549381e")
+	)
+	(label "Wakeup"
+		(at 25.4 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6dba09b-00a4-4614-8bc1-4aa081265fbd")
+	)
+	(label "R3"
+		(at 140.97 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc6c6556-5f67-42eb-9e24-e07bfb4e7f11")
+	)
+	(label "R1"
+		(at 106.68 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d551518a-4925-4d40-a1bb-3f60c8256529")
+	)
+	(label "R1"
+		(at 140.97 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcc314b6-d0c9-48c1-bfb3-1f4407f718e8")
+	)
+	(label "R4"
+		(at 106.68 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e37d49b7-5bdf-4937-8785-3062f58788da")
+	)
+	(label "R2"
+		(at 106.68 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9a41ed9-18d6-47bc-8529-1f629140cfab")
+	)
+	(label "SCL"
+		(at 55.372 125.222 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f83dfc6d-ee64-40ed-80a4-73e16fe3dd41")
+	)
+	(label "C1"
+		(at 127 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fff91a18-f37c-4d7b-9860-a1a5f84a26f7")
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_15")
+		(at 184.15 68.58 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07dcaece-e2a8-48b5-8e12-cf9a841f8615")
+		(property "Reference" "SW16"
+			(at 181.5846 61.3029 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 181.5846 63.5889 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03942bd5-cdf1-4944-926a-b6da7d174bf9")
+		)
+		(pin "2"
+			(uuid "fbe477b9-b651-44a7-b68d-b708e25da69b")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW16")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_7")
+		(at 184.15 34.29 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "105b71fe-a913-4b0a-93f2-3a0400ce0e25")
+		(property "Reference" "SW8"
+			(at 181.5846 27.0129 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 181.5846 29.2989 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c20441f-5a14-4bdc-b7dc-3524ec980cc8")
+		)
+		(pin "2"
+			(uuid "fd6bfbf4-29fc-4b85-b478-1a31589f4824")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW8")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GND")
+		(at 62.992 125.222 90)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12941385-7813-44f7-8113-850a01cda652")
+		(property "Reference" "#PWR?"
+			(at 62.992 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.183 126.2634 -90)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.992 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.992 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 62.992 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93bffeda-f75a-4028-b439-1137701079b0")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_12")
+		(at 119.38 68.58 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15485574-a320-4a9c-bb79-c9620a14ea85")
+		(property "Reference" "SW13"
+			(at 116.8146 61.3029 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 116.8146 63.5889 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaf6a655-03df-4f80-94f0-fb5119685b08")
+		)
+		(pin "2"
+			(uuid "d0108a99-4ded-4ecf-af2a-5e9eb43716be")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW13")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_9")
+		(at 140.97 50.8 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2368d57c-03b5-40b6-a49a-09ca165ea4a8")
+		(property "Reference" "SW10"
+			(at 138.4046 43.5229 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 138.4046 45.8089 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f37deee2-be92-4b64-b025-077af8d8f8ef")
+		)
+		(pin "2"
+			(uuid "2ef14553-5e54-4b04-b3cc-f609b61c7165")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW10")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_4")
+		(at 119.38 34.29 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d977b35-8ece-40eb-a533-3e331e4dcbee")
+		(property "Reference" "SW5"
+			(at 116.8146 27.0129 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 116.8146 29.2989 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03d6e5ab-177c-4058-a8c2-7f114b05cbf1")
+		)
+		(pin "2"
+			(uuid "065df01a-3ad9-4ed4-9905-9a877fcbcee9")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW5")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PN532MOD COPY")
+		(at 62.992 125.222 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fed7efa-f80c-4926-b42f-2fbdcc3cc06b")
+		(property "Reference" "U4"
+			(at 57.6834 107.7595 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "PN532MOD COPY"
+			(at 57.6834 110.0709 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.992 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.992 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.992 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1495a57-f293-4927-81f2-edd59327f4c0")
+		)
+		(pin "3"
+			(uuid "aad6f440-a459-4576-bce9-e86d2a70bb16")
+		)
+		(pin "4"
+			(uuid "3af5f280-1af0-4838-8188-2b114dc07756")
+		)
+		(pin "2"
+			(uuid "9cb5a2b1-869b-4a47-af22-3edd0b3cf6db")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "U4")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "myTTGO T-DISPLAY-S3 -NO_CUTOUT")
+		(at 43.942 39.878 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "309e106f-4a2f-4bae-a91f-054facffe450")
+		(property "Reference" "A1"
+			(at 42.5196 14.5415 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "myTTGO T-DISPLAY-S3 -NO_CUTOUT"
+			(at 24.257 17.4371 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.942 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.942 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.942 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "34"
+			(uuid "884ed39e-8ad2-4764-935d-e75c82b9cd7b")
+		)
+		(pin "35"
+			(uuid "1df6d57d-81d5-4fb1-b2ed-f378455f1203")
+		)
+		(pin "36"
+			(uuid "85bcb5c0-7a5b-4c35-bf11-4ced8a729f98")
+		)
+		(pin "37"
+			(uuid "e844d233-04ec-4e37-aa99-615198109355")
+		)
+		(pin "7"
+			(uuid "26a8fa4a-0054-4e7a-a1f6-f51f14a5c58b")
+		)
+		(pin "8"
+			(uuid "08bc44f2-bfd1-480b-957c-83d191afc859")
+		)
+		(pin "9"
+			(uuid "d7a3f82a-2365-41f6-b883-c4fb8fa5cdad")
+		)
+		(pin "11"
+			(uuid "e84319e6-96e6-4af9-abb0-d961d87a17f7")
+		)
+		(pin "12"
+			(uuid "b497a1ea-d544-447e-8376-602cc0eca868")
+		)
+		(pin "13"
+			(uuid "0b50060e-d343-4ad8-ad85-7220f18deb54")
+		)
+		(pin "14"
+			(uuid "e725f6cb-1f8f-4b8c-af38-494e3f45417d")
+		)
+		(pin "15"
+			(uuid "ccb478bb-a37a-4cf0-9787-d44975637b05")
+		)
+		(pin "16"
+			(uuid "c071a14e-0f4c-442d-bab0-c45b1a9f0dbc")
+		)
+		(pin "17"
+			(uuid "04707d63-324a-41ed-9fa4-738e3830f2a9")
+		)
+		(pin "18"
+			(uuid "8169ddc7-a98d-4abe-9a9c-06059f0c1955")
+		)
+		(pin "26"
+			(uuid "951173bf-5149-4f9f-958a-eae140853127")
+		)
+		(pin "27"
+			(uuid "99d175aa-6a38-46a5-bb8c-8cdfab10c494")
+		)
+		(pin "28"
+			(uuid "3c824a6c-2e15-415d-b845-67b574131488")
+		)
+		(pin "29"
+			(uuid "b49146ce-628c-4549-bef0-8197cb6aa64d")
+		)
+		(pin "30"
+			(uuid "51b70aef-a45d-4650-8dd3-20f7d3e59468")
+		)
+		(pin "31"
+			(uuid "ed01f447-8f55-40a2-a413-fe9b544d5b61")
+		)
+		(pin "32"
+			(uuid "226b538e-8deb-45cf-9d5a-55081d477b3e")
+		)
+		(pin "33"
+			(uuid "9d24ca05-a514-4def-bc87-9dce339d52c6")
+		)
+		(pin "10"
+			(uuid "2a60f87c-7158-4c6c-9c80-fa2ccc743435")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "A1")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY")
+		(at 119.38 17.78 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37cf490a-d968-4a47-b993-fa77da9eb0cd")
+		(property "Reference" "SW1"
+			(at 116.8146 10.5029 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 116.8146 12.7889 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fc77c3e-47e0-4e49-92ba-4c0f32d05f73")
+		)
+		(pin "2"
+			(uuid "e6f8b833-adb0-483b-a3d4-69e6834e89b7")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW1")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3V3")
+		(at 25.4 115.57 0)
+		(mirror x)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52ed6cd2-5289-4ab3-a6f4-8636325b626f")
+		(property "Reference" "#PWR?"
+			(at 25.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 22.7584 112.2426 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name '3V3'"
+			(at 25.4 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edf73a9e-819a-42b4-8771-57a3c016ae17")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3V3")
+		(at 64.262 22.098 90)
+		(mirror x)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53238550-6ffc-4e57-9e72-f6a0ae710947")
+		(property "Reference" "#PWR?"
+			(at 64.262 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 66.929 23.1394 -270)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.262 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.262 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name '3V3'"
+			(at 64.262 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "007dccf5-839f-4704-be3b-5a588d513661")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VCC")
+		(at 60.452 125.222 0)
+		(mirror y)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61edb7d3-7378-4640-b3e6-c36911be76b1")
+		(property "Reference" "#PWR?"
+			(at 60.452 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 57.3024 130.6068 -180)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.452 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.452 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'VCC'"
+			(at 60.452 125.222 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "641b0653-0c40-4af9-a584-9fc8cb5cf5b1")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GND")
+		(at 23.622 47.498 270)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64a5d1c7-7aa5-4d23-87eb-4fd9519fa09b")
+		(property "Reference" "#PWR?"
+			(at 23.622 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 12.827 48.514 -270)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.622 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 23.622 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 23.622 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a293f29-2193-4f41-bc0e-c78c9b9ed06b")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VCC")
+		(at 166.37 88.9 0)
+		(mirror x)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "751b5fe6-f7f1-46ab-986a-434f35afbf8e")
+		(property "Reference" "#PWR?"
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 163.2204 85.598 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'VCC'"
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04d11a79-5b34-43a7-8292-e2c62f17e57a")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "9X9MM_SMD_PIEZO MURATA")
+		(at 37.592 90.678 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79e02f61-c828-430d-ad6f-dd6323df429f")
+		(property "Reference" "P1"
+			(at 36.1442 82.9945 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "9X9MM_SMD_PIEZO MURATA"
+			(at 36.1442 85.2551 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 37.592 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37.592 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.592 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92af1387-ed8c-4b0e-85e8-019d1964c806")
+		)
+		(pin "2"
+			(uuid "2532f703-ce1c-4ee0-8104-e38b850efb7d")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "P1")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "R503 Fingerprint reader")
+		(at 12.7 123.19 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80c1a200-e530-4bcb-8b44-55aab3fa3477")
+		(property "Reference" "U2"
+			(at 12.4714 108.3437 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "R503"
+			(at 11.1506 110.8837 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 12.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 12.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 12.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5ebabb3-127d-4e5a-972f-6939d9de5811")
+		)
+		(pin "2"
+			(uuid "f342d6c7-8c58-41b6-b843-fa8d94083fe5")
+		)
+		(pin "3"
+			(uuid "04d8e5b0-9007-4802-879c-98be6d460e7c")
+		)
+		(pin "4"
+			(uuid "a8704e96-ff59-4f0c-a739-71e1cdd84305")
+		)
+		(pin "5"
+			(uuid "c9896647-44c7-4891-91db-53dd28aba710")
+		)
+		(pin "6"
+			(uuid "a1804582-024b-4fa3-95ce-0709b0e61b3a")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "U2")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Unknown_5_-566")
+		(at 0 -0.254 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "831ebdae-d65b-484d-9b39-84125586a3eb")
+		(property "Reference" "A"
+			(at 57.9882 -66.9671 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "A"
+			(at 57.9882 -64.6811 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 -0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -0.254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "A")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GND")
+		(at 140.97 87.63 180)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84a80b55-3db3-4a63-8e5e-ec4811bcc7d9")
+		(property "Reference" "#PWR?"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.668 82.7786 -180)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 140.97 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b60e6e58-01f0-44c9-9074-1fdc43c21704")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_6")
+		(at 162.56 34.29 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b8f8b39-f9e2-43ac-b506-d98a9ed81752")
+		(property "Reference" "SW7"
+			(at 159.9946 27.0129 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 159.9946 29.2989 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b82623b8-eb03-46af-ae40-d67dbde75ec3")
+		)
+		(pin "2"
+			(uuid "dbdb53f6-093c-416d-a8bd-263da245f72d")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW7")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_10")
+		(at 162.56 50.8 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c3a84db-3d38-4793-beb2-cc66b6fa241a")
+		(property "Reference" "SW11"
+			(at 159.9946 43.5229 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 159.9946 45.8089 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e81872d4-e991-4bb2-a00f-2b172ffe4620")
+		)
+		(pin "2"
+			(uuid "b96aabae-4349-441d-b137-22dd62484611")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW11")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_13")
+		(at 140.97 68.58 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "938e2b1e-3bab-4fd0-bb28-eee03d709009")
+		(property "Reference" "SW14"
+			(at 138.4046 61.3029 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 138.4046 63.5889 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d2bd3da-d604-445e-9344-e7f0b4145f69")
+		)
+		(pin "2"
+			(uuid "a5a939ea-edcf-4203-909d-62b0e0337e29")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW14")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VCC")
+		(at 64.262 50.038 0)
+		(mirror y)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "943f382d-06df-449b-bfb2-dd801d7daaf5")
+		(property "Reference" "#PWR?"
+			(at 64.262 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 61.1124 55.4228 -180)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.262 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.262 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'VCC'"
+			(at 64.262 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae1dbe0e-ed95-4d06-9414-1e5598c5680b")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_11")
+		(at 184.15 50.8 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aaa4be15-4e5a-4c80-a2a0-1f58ee59c3f6")
+		(property "Reference" "SW12"
+			(at 181.5846 43.5229 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 181.5846 45.8089 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b676ad2f-5e79-43cc-bed2-354904cd5f11")
+		)
+		(pin "2"
+			(uuid "11f67fc2-6bfd-4aa5-8c1b-3a8562206c57")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW12")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3V3")
+		(at 25.4 128.27 0)
+		(mirror y)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b969a474-44a9-4f6f-a055-55bb579fcc30")
+		(property "Reference" "#PWR?"
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 22.6568 133.6548 -180)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name '3V3'"
+			(at 25.4 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99d071d4-4874-45a8-8ac4-1e599939924c")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_1")
+		(at 140.97 17.78 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be20a873-4c2c-4c26-87ce-23cc4fe0be80")
+		(property "Reference" "SW2"
+			(at 138.4046 10.5029 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 138.4046 12.7889 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db41f044-cb1e-4346-835c-445e86d5b70e")
+		)
+		(pin "2"
+			(uuid "7fedd859-c73e-4424-8a4e-63c3af8d8aa5")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW2")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GND")
+		(at 31.75 118.11 180)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be504cb5-b653-4885-b5b9-62886b30ca17")
+		(property "Reference" "#PWR?"
+			(at 31.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.448 113.2332 -180)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 31.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c577aa38-d8a2-4c9e-a1b2-19d80bd1159a")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_2")
+		(at 162.56 17.78 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c06d0ff7-eafd-4675-84cf-b9fafda63ae3")
+		(property "Reference" "SW3"
+			(at 159.9946 10.5029 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 159.9946 12.7889 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0163bbf9-a49f-42c1-abd9-6f73229c72df")
+		)
+		(pin "2"
+			(uuid "c222a574-b844-4281-a93b-7dc16b238459")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW3")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCF8574AN")
+		(at 153.67 97.79 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4357390-4cd1-4799-9700-6914a04dff6d")
+		(property "Reference" "U3"
+			(at 152.1206 81.2927 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "PCF8574AN"
+			(at 147.0152 84.2137 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "a9f941e7-8c81-49f6-8bdd-d48130b96cca")
+		)
+		(pin "11"
+			(uuid "11157239-8d67-4cb4-b99c-e9c52d81205a")
+		)
+		(pin "12"
+			(uuid "b4787d85-8ba6-4468-97c8-d58dba103204")
+		)
+		(pin "13"
+			(uuid "0f78ecbd-5de7-420b-aa20-b7c271768484")
+		)
+		(pin "14"
+			(uuid "fe5cd026-3435-41b1-bb9b-7dd476c84ff7")
+		)
+		(pin "15"
+			(uuid "3185253f-8be9-4eef-a5dd-d840260ecd4f")
+		)
+		(pin "16"
+			(uuid "ae575370-c8db-4791-8ddd-763065ebfdb4")
+		)
+		(pin "2"
+			(uuid "94cc5194-a71c-4ef9-bcbb-6231c931b232")
+		)
+		(pin "3"
+			(uuid "5c30046e-094c-41d7-ab4e-763710f48084")
+		)
+		(pin "4"
+			(uuid "6bc263b9-4072-4811-af5b-61f6edd63a69")
+		)
+		(pin "5"
+			(uuid "c02eee6e-afba-4b57-adbd-c895fb158cf4")
+		)
+		(pin "6"
+			(uuid "43a56ec1-3982-4172-80eb-74acdbc0446f")
+		)
+		(pin "7"
+			(uuid "967bd3bb-9ebe-4e16-bffd-c3e26313aaf2")
+		)
+		(pin "8"
+			(uuid "d16dcabb-8f10-4c58-83f7-c5dbb07b70ce")
+		)
+		(pin "9"
+			(uuid "6ff1522c-6a89-4a51-b0f2-40d73ae2b0bd")
+		)
+		(pin "1"
+			(uuid "74d2b7a5-bf7f-4b78-960f-eddd62ff0fa4")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "U3")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_3")
+		(at 184.15 17.78 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c753393b-f1dd-4be8-8e04-5c30c4479b70")
+		(property "Reference" "SW4"
+			(at 181.5846 10.5029 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 181.5846 12.7889 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "173b3282-e4fb-47ff-9e01-f4f365767ae5")
+		)
+		(pin "2"
+			(uuid "9737c0b7-8b0c-4fd7-b022-04de625cb3a7")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW4")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GND")
+		(at 42.672 90.678 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf415477-9858-4ffb-804f-e2db61311dc5")
+		(property "Reference" "#PWR?"
+			(at 42.672 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 97.5868 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 42.672 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 42.672 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 42.672 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4045a412-6433-490a-b892-dc62b55a030c")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_8")
+		(at 119.38 50.8 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e109a0ad-e377-4908-baa9-285a911728ac")
+		(property "Reference" "SW9"
+			(at 116.8146 43.5229 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 116.8146 45.8089 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb8c2a22-03d9-48d5-be06-b3629e5fe33b")
+		)
+		(pin "2"
+			(uuid "10ca3421-2de7-4f3e-8587-700221f54ab9")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW9")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_5")
+		(at 140.97 34.29 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7315fb5-06f3-467b-af7b-6491c400b670")
+		(property "Reference" "SW6"
+			(at 138.4046 27.0129 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 138.4046 29.2989 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3cc402ec-b1ed-454c-bb49-cb41b70ea798")
+		)
+		(pin "1"
+			(uuid "cce15aa3-07ab-436c-af48-db87c5961c5d")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW6")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KAILH MX CHOC V1 CHOC V2 HOT SWAP COPY_14")
+		(at 162.56 68.58 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9107963-51a8-4fb2-bb2c-ce920764c51b")
+		(property "Reference" "SW15"
+			(at 159.9946 61.3029 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KAILH MX"
+			(at 159.9946 63.5889 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.6891 1.6891)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "023044c1-926a-4e08-a499-aa9c392487b5")
+		)
+		(pin "2"
+			(uuid "105ca907-3e7d-4242-80f4-4a8d64974f00")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "SW15")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GND")
+		(at 143.51 106.68 0)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efe084df-f6cd-4bd7-8c80-649709080dfe")
+		(property "Reference" "#PWR?"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.208 113.5888 0)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name 'GND'"
+			(at 143.51 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cc54635-3654-4c4e-9ad2-516236c1beeb")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "3V3")
+		(at 23.622 50.038 0)
+		(mirror y)
+		(unit 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4ba2515-30da-4e77-a926-02f6ee6d7355")
+		(property "Reference" "#PWR?"
+			(at 23.622 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 20.8788 55.4228 -180)
+			(effects
+				(font
+					(face "Times New Roman")
+					(size 2.1717 2.1717)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.622 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 23.622 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name '3V3'"
+			(at 23.622 50.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a28f5d56-60e2-46a4-994c-06bf8f4a01c2")
+		)
+		(instances
+			(project "Alarm Keypad"
+				(path "/7c66d295-54ad-44b8-acae-20de961f1d40"
+					(reference "#PWR?")
+					(unit 0)
+				)
+			)
+		)
+	)
+)
